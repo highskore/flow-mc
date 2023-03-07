@@ -1,0 +1,75 @@
+{
+	"contracts": {
+		"ExampleNFT": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FUSD": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowToken": {
+			"source": "",
+			"aliases": {
+				"emulator": "0ae53cb6e3f42a79"
+			}
+		},
+		"FungibleToken": {
+			"source": "",
+			"aliases": {
+				"emulator": "ee82856bf20e2aa6"
+			}
+		},
+		"MetadataViews": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"NFTStorefront": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"NFTStorefrontV2": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"SomeContract": "cadence/contracts/Two.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"default": {
+			"address": "179b6b1cb6755e31",
+			"key": "75ca291c25e2a01214f43d5cfbc504cc3a20aa4dd93358dbb556069eb07d0d17"
+		},
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"default": [
+				"SomeContract"
+			]
+		}
+	}
+}
